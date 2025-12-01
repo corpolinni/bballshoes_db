@@ -50,13 +50,13 @@ $imageSrc = (!empty($dbImagePath))
   <title><?php echo htmlspecialchars($shoe['brand'] . ' ' . $shoe['model']); ?></title>
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
   <!-- DataTables -->
-  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="datatables-responsive/css/responsive.bootstrap4.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+  <link rel="stylesheet" href="sweetalert2/sweetalert2.min.css">
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -335,4 +335,5 @@ new Chart(ctx, {
 });
 </script>
 </body>
+
 </html>
