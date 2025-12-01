@@ -7,11 +7,11 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- DataTables -->
-  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="datatables-responsive/css/responsive.bootstrap4.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
+  <link rel="stylesheet" href="sweetalert2/sweetalert2.min.css">
 </head>
 <?php include "navbar.php"?>
 <body class="hold-transition sidebar-mini">
@@ -92,3 +92,4 @@
 <script src="../dist/js/adminlte.min.js"></script>
 </body>
 </html>
+
